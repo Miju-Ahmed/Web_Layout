@@ -73,7 +73,7 @@ nav{
 	margin:50px 0px;
 }
 .header-writing-part h1{
-
+	text-transform: uppercase;
 }
 .header-writing-part a button{
 	width: 200px;
@@ -84,7 +84,7 @@ nav{
 	margin-top: 20px;
 }
 .header-writing-part a button:hover{
-	border-color: red;
+	background-color: red;
 }
 
 /*Service section*/
@@ -119,6 +119,7 @@ nav{
 }
 .service-box h2 a{
 	text-decoration: none;
+	text-transform: uppercase;
 }
 .service-box h2 a:hover{
 	background-color: red;
@@ -129,8 +130,8 @@ nav{
 .service-box img{
 	text-align: center;
 }
-.service-writing-part{
-
+.service-writing-part h1{
+	text-transform: uppercase;
 }
 
 /*Members of our team*/
@@ -148,19 +149,25 @@ nav{
 	width: 100%;
 	padding: 0px 0px 30px;
 }
+.team-writing-part h2{
+	text-transform: uppercase;
+}
 .team-members-part{
 	width: 33.333%;
 	float: left;
 }
 .team-members-part h2{
-	padding: 20px 0px 5px;
+	padding: 20px 0px 0px;
 	margin: 10px 0px;
+	text-transform: uppercase;
 }
-.team-members-part img{
-
+.team-members-part h3{
+	color:#30bae7;
+	padding: 0px 0px 15px;
 }
 .team-members-part p{
 	text-align: center;
+	padding: 0px 0px 20px;
 }
 
 /*Skill Proccesing*/
@@ -175,7 +182,7 @@ nav{
 	padding: 10px 0px;
 }
 .skill-writing-part h2{
-
+	text-transform: uppercase;
 }
 .skill-writing-part p{
 	padding: 0px 0px 30px;
@@ -195,18 +202,133 @@ nav{
 
 }
 
-/*Footer*/
-footer{
+/*Portfolio data*/
+#portfolio{
 	width: 100%;
-	padding: 150px 0px 200px;
-	color: white;
-	background-color: #54C7EC;
+	background-color: #ffdd99;
 	float: left;
 	text-align: center;
 }
-.main h2{
+.portfolio-writing-part{
 	padding: 0px 0px 30px;
 }
-.main p{
-	padding: 30px 0px 30px;
+.portfolio-writing-part h2{
+	width: 100%;
+	
+	text-transform: uppercase;
+}
+.portfolio-writing-part p{
+	padding: 0px 0px 15px;
+}
+.portfolio-writing-part a{
+	font-size: 10px;
+	text-decoration: none;
+	transition: ease-in-out 0.4s;
+	padding: 10px;
+	/*float: left;*/
+	width: 100%;
+}
+.portfolio-writing-part a button{
+	width: 100px;
+	padding: 12px 7px;
+	background-color: #ffd100;
+	padding: 10px 0px 15px;
+}
+.portfolio-writing-part a button:hover{
+	color: white;
+	background-color: red;
+}
+
+.portfolio-showing-part{
+	width: 25%;
+	float: left;
+}
+.btn{
+	margin: 20px;
+	padding: 20px 20px 20px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.btn:hover{
+	background-color: red;
+	color: black;
+	transition: ease-in-out 0.6s;
+}
+
+/*About Us what pepole say*/
+#about-us{
+	width: 100%;
+	float: left;
+	background-color: orange;
+	text-align: center;
+}
+
+.about-writing-people h2{
+	text-transform: uppercase;
+	padding: 5px 0px 5px;
+	width: 100%;
+	
+}
+.about-writing-people p{
+	padding: 5px 0px 20px;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+}
+.about-showing-people{
+	width: 50%;
+	float: left;
+}
+.about-showing-people h3{
+	padding: 10px 0px 0px;
+}
+.about-showing-people h4{
+	padding: 0px 0px 10px;
+}
+.about-showing-people p{
+	padding: 0px 0px 20px;
+}
+
+/*Get in Touch*/
+#touch{
+	float: left;
+	text-align: center;
+	background-color: #333;
+	color: white;
+	width: 100%;
+}
+.touch-writing-part h2{
+	text-transform: uppercase;
+
+}
+.touch-writing-part p{
+	float: left;
+	width: 100%;
+	padding: 0px 0px 20px;
+}
+.touch-form{
+	width: 50%;
+	float: left;
+}
+.touch-form form input{
+	
+	margin:40px 30px;
+	padding: 12px 200px;
+	box-sizing: border-box;
+	border:2px solid red;
+	border-radius: 4px;
+}
+.touch-form ::placeholder{
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+.touch-form-msg{
+	width: 100%;
+	float: left;
+	margin: 300px 100px;
+	padding: 60px 150px;
+	background-color: black;
 }
